@@ -1,0 +1,45 @@
+.calculator {
+    width: 400px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.display {
+    border: 1px solid black;
+    font-size: 30px;
+    text-align: right;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.buttons button {
+    height: 40px;
+    font-size: 18px;
+}
+
+.number {
+    background-color: lightblue;
+}
+
+.operator {
+    background-color: orange;
+}
+
+.equal {
+    background-color: lightgreen;
+}
+
+.clear {
+    background-color: lightcoral;
+}
+
+.buttons button:hover {
+    background-color: gray;
+    cursor:pointer;
+}
